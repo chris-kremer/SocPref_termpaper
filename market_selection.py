@@ -48,7 +48,7 @@ st.sidebar.header("Simulation Parameters")
 # Sidebar inputs
 num_bettors = st.sidebar.slider("Number of Bettors", 10, 500, 100, step=10)
 variance_ability = st.sidebar.slider("Variance of Ability", 0.01, 0.5, 0.1, step=0.01)
-num_rounds = st.sidebar.slider("Number of Rounds", 1, 1000, 100, step=10)
+num_rounds = st.sidebar.slider("Number of Rounds", 1, 100, 10, step=1)
 bet_fraction = st.sidebar.slider("Bet Fraction", 0.01, 1.0, 0.1, step=0.01)
 
 # Run simulation when button is clicked
